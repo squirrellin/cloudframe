@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-seata-account-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-seata-account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-seata-account-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-seata-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-seata-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-seata-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-seata-storage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-seata-storage-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-seata-storage-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-task" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-task/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-web-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-web-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-web-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/culturalrelic-web/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

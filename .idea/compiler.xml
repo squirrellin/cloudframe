@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="culturalrelic-seata-account-service" />
+        <module name="culturalrelic-seata-storage-service" />
+        <module name="culturalrelic-swagger" />
+        <module name="culturalrelic-seata-order-service" />
+        <module name="culturalrelic-gateway" />
+        <module name="culturalrelic-config" />
+        <module name="culturalrelic-task" />
+        <module name="culturalrelic-generator" />
+        <module name="culturalrelic-web" />
+        <module name="culturalrelic-web-service" />
+        <module name="culturalrelic-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="culturalrelic-test" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="culturalrelic-common" options="" />
+      <module name="culturalrelic-generator" options="" />
+      <module name="culturalrelic-swagger" options="" />
+      <module name="culturalrelic-task" options="" />
+      <module name="culturalrelic-web" options="" />
+      <module name="culturalrelic-web-service" options="" />
+    </option>
+  </component>
+</project>

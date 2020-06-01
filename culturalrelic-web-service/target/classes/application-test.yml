@@ -1,0 +1,82 @@
+server:
+  port: 9100 # 访问端口
+  tomcat:
+    uri-encoding: utf-8
+    max-threads: 20
+    max-connections: 4000
+  servlet:
+    context-path: /${spring.application.name}
+
+
+spring:
+  application:
+    name: producer-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        #可视化连接
+        dashboard: 127.0.0.1:8080
+        #通信端口
+        port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            #namespace: c22e5019-0bee-43b1-b80b-fc0b9d847501
+            dataId: ${spring.application.name}
+            group: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/black?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      minimum-idle: 20
+      maximum-pool-size: 100
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: DatebookHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+  #  data:
+  #    elasticsearch:
+  #      repositories:
+  #        enabled: true
+  #      cluster-nodes: 192.168.92.130:9300
+  #      cluster-name: my-application
+  redis:
+    database: 1
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 200ms
+    jedis:
+      pool:
+        max-idle: 8
+        max-active: 8
+        min-idle: 0
+        max-wait: -1ms
+
+
+
+#监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*Mapper.xml
+  type-aliases-package: com.yaoshun.bean,com.yaoshun.*.bean  #别名
+
+feign:
+  hystrix:
+    enabled: false
