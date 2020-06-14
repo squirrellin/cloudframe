@@ -11,13 +11,13 @@
         <module name="culturalrelic-seata-storage-service" />
         <module name="culturalrelic-swagger" />
         <module name="culturalrelic-seata-order-service" />
-        <module name="culturalrelic-gateway" />
         <module name="culturalrelic-config" />
         <module name="culturalrelic-task" />
         <module name="culturalrelic-generator" />
         <module name="culturalrelic-web" />
         <module name="culturalrelic-web-service" />
         <module name="culturalrelic-common" />
+        <module name="culturalrelic-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

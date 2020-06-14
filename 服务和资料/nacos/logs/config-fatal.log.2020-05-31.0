@@ -1,0 +1,18 @@
+2020-05-31 09:27:32,245 WARN useAddressServer:true
+
+2020-05-31 09:27:32,298 WARN isQuickStart:false
+
+2020-05-31 12:03:19,573 WARN useAddressServer:true
+
+2020-05-31 12:03:19,625 WARN isQuickStart:false
+
+2020-05-31 12:04:30,612 WARN useAddressServer:true
+
+2020-05-31 12:04:30,663 WARN isQuickStart:false
+
+2020-05-31 12:06:39,605 WARN [master-db] jdbc:mysql://127.0.0.1:3306/black?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2020-05-31 12:06:41,129 WARN useAddressServer:true
+
+2020-05-31 12:06:41,182 WARN isQuickStart:false
+
