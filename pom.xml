@@ -6,23 +6,23 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>culturalrelic-web-service</module>
-        <module>culturalrelic-common</module>
-        <module>culturalrelic-web</module>
-        <module>culturalrelic-task</module>
-        <module>culturalrelic-generator</module>
-        <module>culturalrelic-swagger</module>
-        <module>culturalrelic-config</module>
-        <module>culturalrelic-gateway</module>
-        <module>culturalrelic-seata-order-service</module>
-        <module>culturalrelic-seata-account-service</module>
-        <module>culturalrelic-seata-storage-service</module>
+        <module>black-web-service</module>
+        <module>black-common</module>
+        <module>black-web</module>
+        <module>black-task</module>
+        <module>black-generator</module>
+        <module>black-swagger</module>
+        <module>black-config</module>
+        <module>black-gateway</module>
+        <module>black-seata-order-service</module>
+        <module>black-seata-account-service</module>
+        <module>black-seata-storage-service</module>
     </modules>
 
-    <groupId>com.yaoshun</groupId>
-    <artifactId>culturalrelic-parent</artifactId>
+    <groupId>com.black</groupId>
+    <artifactId>black-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <description>文物项目父工程-全局依赖管理</description>
+    <description>全局依赖管理</description>
 
 
     <properties>
@@ -208,17 +208,17 @@
     </dependencyManagement>
 
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <includeSystemScope>true</includeSystemScope>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <includeSystemScope>true</includeSystemScope>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 
 
     <!-- 其他仓库,按设定顺序进行查找. -->
@@ -241,5 +241,15 @@
             <url>http://repo.maven.apache.org/maven2</url>
         </repository>
     </repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.2.RELEASE</version>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

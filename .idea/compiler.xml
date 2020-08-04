@@ -7,17 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="culturalrelic-seata-account-service" />
-        <module name="culturalrelic-seata-storage-service" />
-        <module name="culturalrelic-swagger" />
-        <module name="culturalrelic-seata-order-service" />
-        <module name="culturalrelic-config" />
-        <module name="culturalrelic-task" />
-        <module name="culturalrelic-generator" />
-        <module name="culturalrelic-web" />
-        <module name="culturalrelic-web-service" />
-        <module name="culturalrelic-common" />
-        <module name="culturalrelic-gateway" />
+        <module name="black-seata-storage-service" />
+        <module name="black-web" />
+        <module name="black-common" />
+        <module name="black-swagger" />
+        <module name="black-config" />
+        <module name="black-task" />
+        <module name="black-generator" />
+        <module name="black-web-service" />
+        <module name="black-seata-account-service" />
+        <module name="black-gateway" />
+        <module name="black-seata-order-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,12 +26,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="culturalrelic-common" options="" />
-      <module name="culturalrelic-generator" options="" />
-      <module name="culturalrelic-swagger" options="" />
-      <module name="culturalrelic-task" options="" />
-      <module name="culturalrelic-web" options="" />
-      <module name="culturalrelic-web-service" options="" />
+      <module name="black-common" options="" />
+      <module name="black-generator" options="" />
+      <module name="black-swagger" options="" />
+      <module name="black-task" options="" />
+      <module name="black-web" options="" />
+      <module name="black-web-service" options="" />
     </option>
   </component>
 </project>
