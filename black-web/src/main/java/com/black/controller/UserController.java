@@ -39,8 +39,6 @@ public class UserController {
     public Object listPage(String pageNum, String pageSize, User user) {
         Object response = userServiceCloud.listPage(pageNum, pageSize, user);
         Response response1 = userServiceCloud.selectById(1L);
-
-
         return response;
     }
 
