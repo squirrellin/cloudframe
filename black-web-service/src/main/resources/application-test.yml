@@ -31,7 +31,7 @@ spring:
             data-type: json
             rule-type: flow
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/black?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/black_alibaba?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: 123456
     driverClassName: com.mysql.jdbc.Driver
@@ -73,9 +73,10 @@ management:
       exposure:
         include: '*'
 
+
 mybatis-plus:
   mapper-locations: classpath:mapper/**/*Mapper.xml
-  type-aliases-package: com.yaoshun.bean,com.yaoshun.*.bean  #别名
+  type-aliases-package: com.black.bean,com.black.*.bean  #别名
 
 feign:
   hystrix:
