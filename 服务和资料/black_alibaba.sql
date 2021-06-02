@@ -4,7 +4,7 @@ Navicat MySQL Data Transfer
 Source Server         : localhost
 Source Server Version : 50718
 Source Host           : localhost:3306
-Source Database       : black
+Source Database       : shaolin
 
 Target Server Type    : MYSQL
 Target Server Version : 50718
@@ -182,9 +182,9 @@ CREATE TABLE `sys_user` (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', 'admin', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'black', 'black', null, null);
-INSERT INTO `sys_user` VALUES ('1195225351496667137', 'admin1', '123456', 'black', 'black', null, null);
-INSERT INTO `sys_user` VALUES ('1195225354021638145', 'blackduanwei', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'black', 'black', null, null);
-INSERT INTO `sys_user` VALUES ('1195225356584357890', 'blackduanwei', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'black', 'black', null, null);
-INSERT INTO `sys_user` VALUES ('1195225358736035842', 'blackduanwei', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'black', 'black', null, null);
-INSERT INTO `sys_user` VALUES ('1195225362192142338', 'blackduanwei', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'black', 'black', null, null);
+INSERT INTO `sys_user` VALUES ('1', 'admin', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'shaolin', 'shaolin', null, null);
+INSERT INTO `sys_user` VALUES ('1195225351496667137', 'admin1', '123456', 'shaolin', 'shaolin', null, null);
+INSERT INTO `sys_user` VALUES ('1195225354021638145', 'blackduanwei', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'shaolin', 'shaolin', null, null);
+INSERT INTO `sys_user` VALUES ('1195225356584357890', 'blackduanwei', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'shaolin', 'shaolin', null, null);
+INSERT INTO `sys_user` VALUES ('1195225358736035842', 'blackduanwei', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'shaolin', 'shaolin', null, null);
+INSERT INTO `sys_user` VALUES ('1195225362192142338', 'blackduanwei', '$2a$10$ZsM5tnQRh0GR5CSg.Kdm.eXGVHcyoFwQB9rfgKSEEntAeo6A67yjO', 'shaolin', 'shaolin', null, null);
